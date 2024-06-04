@@ -1,0 +1,15 @@
+create table if not exists operating_set_status(
+setid_id Integer not null,
+setid_owner varchar(255) null,
+active_account char null,
+setid_type_id Integer null,
+setid_type varchar(255) null,
+setid_status varchar(255) null,
+setid_description Integer null,
+customer_class Integer null,
+effective_date varchar(255) null,
+operating_unit_setid Integer null,
+customer_class_description varchar(255) null,
+status varchar(255) null,
+remarks varchar(255) null,
+constraint operating_set_status_pk primary key(setid_id));
